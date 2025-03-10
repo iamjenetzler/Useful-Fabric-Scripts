@@ -1,57 +1,33 @@
-﻿# Romain Casteres - https://www.PulsWeb.fr
-# Following script is adding users as admin of all workspaces [Administrator rights required]
-# "A person with a Power BI Pro license can be a member of a maximum 1,000 workspaces" Source : https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces#limitations-and-considerations
-
-$UserMail = "###@###"
-
-$folder = "out"
-$folderFullPath = "$PSScriptRoot\$folder"
-If(!(test-path $folderFullPath)){
-      New-Item -ItemType Directory -Force -Path $folderFullPath
-}
-$FileName = "$folderFullPath\UpdatedWorkspaces.csv"
-if (Test-Path $FileName) {
-    Remove-Item $FileName
-}
-
-# Installing PbiAdminModules if not present
-if (Get-Module -ListAvailable -Name "MicrosoftPowerBIMgmt") {
-    Write-Host "MicrosoftPowerBIMgmt Module exists"
-	#Update-Module MicrosoftPowerBIMgmt
-} else {
-    Write-Host "MicrosoftPowerBIMgmt Module does not exist  - Installing it..."
-    Install-PbiAdminModules
-}
-Import-Module MicrosoftPowerBIMgmt
-
 Connect-PowerBIServiceAccount
 
-# Get the list of workspaces as a Power BI User and as Admin User
-$myWorkspaces = Get-PowerBIWorkspace
-$tentantWorkspaces = Get-PowerBIWorkspace -Scope Organization -All
-Write-Host “The current user has –” $myWorkspaces.Count “– workspaces. There are –” $tentantWorkspaces.Count “– workspaces in this Power BI tenant.”
+#Input values before running the script:
+$NbrDaysDaysToExtract = 7
+$ExportFileLocation = 'C:\Power-BI-Raw-Data\Activity-Log'
+$ExportFileName = 'PBIActivityEvents'
+#--------------------------------------------
 
-# Get the list of all workspaces and add Uset as Admin
-$Groups = Get-PowerBIWorkspace -Scope Organization -All # -First 5
-$Groups = $Groups | SELECT Id, Name, Type, State, Users | WHERE State -NE 'Deleted' 
-#FILTER ON PERSONAL WORKSPACE
-$GroupWorkspaces = $Groups | WHERE Type -eq 'Workspace' 
-$GroupWorkspaces | ForEach-Object {
-    if($_.Users.UserPrincipalName -contains $UserMail) {
-        Write-Host $UserMail "is already administrator of the" $_.Id "Workspace"
-    } else {
-        Write-Host "Adding" $UserMail "as administrator of the" $_.Id "Workspace"
-        Add-PowerBIWorkspaceUser -Scope Organization -Id $_.Id -UserEmailAddress $UserMail -AccessRight Admin -WarningAction Ignore
-        New-Object PSObject -Property @{ 
-            Id = $_.Id; 
-            Name = $_.Name;  
-        } 
-    }    
-} | Export-CSV $FileName -NoTypeInformation -Encoding UTF8 -Force
+#Start with yesterday for counting back to ensure full day results are obtained:
+[datetime]$DayUTC = (([datetime]::Today.ToUniversalTime()).Date).AddDays(-1)
 
-# Get the list of workspaces as a Power BI User and as Admin User
-$myWorkspaces = Get-PowerBIWorkspace
-$tentantWorkspaces = Get-PowerBIWorkspace -Scope Organization -All
-Write-Host “The current user has –” $myWorkspaces.Count “– workspaces. There are –” $tentantWorkspaces.Count “– workspaces in this Power BI tenant.”
+#Suffix for file name so we know when it was written:
+[string]$DateTimeFileWrittenUTCLabel = ([datetime]::Now.ToUniversalTime()).ToString("yyyyMMddHHmm")
 
-Disconnect-PowerBIServiceAccount
+#Loop through each of the days to be extracted (<Initilize> ; <Condition> ; <Repeat>)
+For($LoopNbr=0 ; $LoopNbr -lt $NbrDaysDaysToExtract ; $LoopNbr++)
+{
+    [datetime]$DateToExtractUTC=$DayUTC.AddDays(-$LoopNbr).ToString("yyyy-MM-dd")
+
+[string]$DateToExtractLabel=$DateToExtractUTC.ToString("yyyy-MM-dd")
+    
+    #Create full file name:
+    [string]$FullExportFileName = $ExportFileName + '-' + ($DateToExtractLabel -replace '-', '') + '-' + $DateTimeFileWrittenUTCLabel + '.json'
+
+#Obtain activity events and store intermediary results:
+    [psobject]$Events=Get-PowerBIActivityEvent -StartDateTime ($DateToExtractLabel+'T00:00:00.000') -EndDateTime ($DateToExtractLabel+'T23:59:59.999')
+
+#Write one file per day:
+    $Events | Out-File "$ExportFileLocation\$FullExportFileName"
+
+Write-Verbose "File written: $FullExportFileName" -Verbose 
+}
+Write-Verbose "Extract of Power BI activity events is complete." -Verbose
