@@ -1,57 +1,70 @@
-﻿# Romain Casteres - https://www.PulsWeb.fr
-# Following script is adding users as admin of all workspaces [Administrator rights required]
-# "A person with a Power BI Pro license can be a member of a maximum 1,000 workspaces" Source : https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-new-workspaces#limitations-and-considerations
+﻿# This script adds a user or service principal as an admin to all workspaces in Power BI.
 
-$UserMail = "###@###"
+param (
+    # This can add a user by email address or a security principal   
+    # If providing a security principal, this is the Objec Id of the Enterprise Application
+    [string]$PrincipalOrUser =  'a3e87864-ca1a-443c-8e41-bec46625310e',    
+    [string]$Folder = "out"
+)
 
-$folder = "out"
-$folderFullPath = "$PSScriptRoot\$folder"
-If(!(test-path $folderFullPath)){
-      New-Item -ItemType Directory -Force -Path $folderFullPath
+# Authenticate to Power BI using an admin account
+try {
+    Write-Host "Please log in with your admin account to connect to Power BI..."
+    Connect-PowerBIServiceAccount
+    Write-Host "Connected to Power BI Service Account successfully."
+} catch {
+    Write-Host "Error connecting to Power BI Service Account: $_"
+    throw
 }
-$FileName = "$folderFullPath\UpdatedWorkspaces.csv"
-if (Test-Path $FileName) {
-    Remove-Item $FileName
-}
 
-# Installing PbiAdminModules if not present
-if (Get-Module -ListAvailable -Name "MicrosoftPowerBIMgmt") {
-    Write-Host "MicrosoftPowerBIMgmt Module exists"
-	#Update-Module MicrosoftPowerBIMgmt
+# Determine if the input is a service principal or user email
+$isServicePrincipal = $PrincipalOrUser -match "^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$" # GUID format
+if ($isServicePrincipal) {
+    $PrincipalType = "App" # Correct value for service principals
+    Write-Host "Input is identified as a Service Principal: $PrincipalOrUser"
 } else {
-    Write-Host "MicrosoftPowerBIMgmt Module does not exist  - Installing it..."
-    Install-PbiAdminModules
+    $PrincipalType = "User" # Correct value for user emails
+    Write-Host "Input is identified as a User Email: $PrincipalOrUser"
 }
-Import-Module MicrosoftPowerBIMgmt
 
-Connect-PowerBIServiceAccount
 
-# Get the list of workspaces as a Power BI User and as Admin User
-$myWorkspaces = Get-PowerBIWorkspace
-$tentantWorkspaces = Get-PowerBIWorkspace -Scope Organization -All
-Write-Host “The current user has –” $myWorkspaces.Count “– workspaces. There are –” $tentantWorkspaces.Count “– workspaces in this Power BI tenant.”
+# Loop through all workspaces
+$Groups | ForEach-Object {
+    Write-Host "Processing workspace: $($_.Name) (ID: $($_.Id))"
 
-# Get the list of all workspaces and add Uset as Admin
-$Groups = Get-PowerBIWorkspace -Scope Organization -All # -First 5
-$Groups = $Groups | SELECT Id, Name, Type, State, Users | WHERE State -NE 'Deleted' 
-#FILTER ON PERSONAL WORKSPACE
-$GroupWorkspaces = $Groups | WHERE Type -eq 'Workspace' 
-$GroupWorkspaces | ForEach-Object {
-    if($_.Users.UserPrincipalName -contains $UserMail) {
-        Write-Host $UserMail "is already administrator of the" $_.Id "Workspace"
-    } else {
-        Write-Host "Adding" $UserMail "as administrator of the" $_.Id "Workspace"
-        Add-PowerBIWorkspaceUser -Scope Organization -Id $_.Id -UserEmailAddress $UserMail -AccessRight Admin -WarningAction Ignore
-        New-Object PSObject -Property @{ 
-            Id = $_.Id; 
-            Name = $_.Name;  
-        } 
-    }    
-} | Export-CSV $FileName -NoTypeInformation -Encoding UTF8 -Force
+    # Flag to check if the user or service principal already exists
+    $UserExists = $false
 
-# Get the list of workspaces as a Power BI User and as Admin User
-$myWorkspaces = Get-PowerBIWorkspace
-$tentantWorkspaces = Get-PowerBIWorkspace -Scope Organization -All
-Write-Host “The current user has –” $myWorkspaces.Count “– workspaces. There are –” $tentantWorkspaces.Count “– workspaces in this Power BI tenant.”
+    # Loop through all users in the workspace
+    foreach ($User in $_.Users) {
+        Write-Host "Checking user: $($User.Identifier) with access right: $($User.AccessRight)"
 
-Disconnect-PowerBIServiceAccount
+        # Check if the current user matches the PrincipalOrUser
+        if ($User.Identifier -eq $PrincipalOrUser) {
+            Write-Host "$PrincipalOrUser already exists in the workspace with access right: $($User.AccessRight)"
+            $UserExists = $true
+            break
+        }
+    }
+
+    # If the user or service principal does not exist, add them as an admin
+    if (-not $UserExists) {
+        Write-Host "Adding $PrincipalOrUser as administrator of the workspace: $($_.Name) (ID: $($_.Id))"
+        try {
+            Add-PowerBIWorkspaceUser -Scope Organization -Id $_.Id -Identifier $PrincipalOrUser -PrincipalType $PrincipalType -AccessRight Admin -WarningAction Ignore
+            Write-Host "$PrincipalOrUser added successfully as an administrator."
+        } catch {
+            Write-Host "Error adding $PrincipalOrUser to workspace $($_.Name) (ID: $($_.Id)): $($_.Exception.Message)"
+        }
+    }
+}
+
+
+# Disconnect from Power BI
+try {
+    Disconnect-PowerBIServiceAccount
+    Write-Host "Disconnected from Power BI Service Account."
+} catch {
+    Write-Host "Error disconnecting from Power BI Service Account: $_"
+    throw
+}

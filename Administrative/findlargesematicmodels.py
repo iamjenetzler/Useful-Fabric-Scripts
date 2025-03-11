@@ -1,3 +1,5 @@
+#This script will find all large semantic models in all workspaces and print their names.
+
 import requests
 
 # Define the API endpoint and access token

@@ -1,3 +1,5 @@
+# This script retrieves and exports the refresh history of all datasets in all workspaces in Power BI to a CSV file. It requires the following parameters to be defined:
+
 Connect-PowerBIServiceAccount
 
 #Input values before running the script:

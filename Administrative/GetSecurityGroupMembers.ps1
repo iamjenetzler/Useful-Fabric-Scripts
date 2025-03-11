@@ -1,3 +1,5 @@
+# This script retrieves and exports the members of all security groups in Azure Active Directory to a CSV file. It requires the Microsoft.Graph module to be installed and connected to Azure Active Directory.
+
 # Install-Module Microsoft.Graph -Scope CurrentUser
 # Connect-MgGraph -Scopes "Group.Read.All"
 

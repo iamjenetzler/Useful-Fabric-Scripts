@@ -1,3 +1,5 @@
+# This script will export the tenant settings to a CSV file and then save it to a Delta table in a Lakehouse.
+
 from azure.identity import InteractiveBrowserCredential
 import requests
 

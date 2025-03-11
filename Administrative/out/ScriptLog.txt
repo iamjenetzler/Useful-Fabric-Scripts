@@ -1,0 +1,354 @@
+[2025-03-11 09:25:58] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 09:25:58] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 09:26:01] Connected to Power BI Service Account successfully.
+[2025-03-11 09:26:01] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 09:26:02] Retrieved 24 workspaces from the tenant.
+[2025-03-11 09:26:02] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 09:27:27] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 09:28:30] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 09:28:30] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 09:28:38] Connected to Power BI Service Account successfully.
+[2025-03-11 09:28:38] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 09:28:39] Retrieved 24 workspaces from the tenant.
+[2025-03-11 09:28:39] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 09:28:39] Error processing workspaces: Cannot bind parameter 'PrincipalType'. Cannot convert value "ServicePrincipal" to type "Microsoft.PowerBI.Common.Api.Workspaces.WorkspaceUserPrincipalType". Error: "Unable to match the identifier name ServicePrincipal to a valid enumerator name. Specify one of the following enumerator names and try again:
+App, Group, User"
+[2025-03-11 09:29:49] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 09:29:49] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 09:29:53] Connected to Power BI Service Account successfully.
+[2025-03-11 09:29:53] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 09:29:54] Retrieved 24 workspaces from the tenant.
+[2025-03-11 09:29:54] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 09:29:54] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 09:29:55] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 09:29:56] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 09:29:57] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 09:29:58] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Adventure Works (ID: 7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6)
+[2025-03-11 09:29:58] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Non-Fabric Workspace (ID: 80e66ee7-9c3a-4f2d-bfa4-d947d9d15322)
+[2025-03-11 09:29:59] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: AI Analytics (ID: 5180a3ab-2894-4714-89cf-2a67551f64bb)
+[2025-03-11 09:30:00] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Medallion Demo (ID: 9e99e815-6ada-4790-8ebe-ad8bcfebf585)
+[2025-03-11 09:30:01] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Microsoft Fabric Capacity Metrics (ID: 7bfca978-0a34-4a8a-aeb9-bd3697331170)
+[2025-03-11 09:30:01] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Demo Workspace (ID: 19e3b596-5a2f-4511-9eb9-270b9bf88a90)
+[2025-03-11 09:30:03] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Cost and Schedule (ID: c26f2f17-d1a6-418c-a459-659d6b429239)
+[2025-03-11 09:30:04] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: fuam (ID: 49fcd06f-60c4-4ecf-84ae-e8254aa0cc1f)
+[2025-03-11 09:30:04] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Customer Service Management (ID: 86ffd7b3-a099-40c1-a78e-38dfa3c982e2)
+[2025-03-11 09:30:05] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Wingtip Sales Analysis (ID: 1c07be08-3c18-426d-9acb-260386073ac0)
+[2025-03-11 09:30:06] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Test (ID: a8f948d7-dfe0-4b57-aff3-b93a15622b7e)
+[2025-03-11 09:30:06] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Prod (ID: 3ef84352-43b0-4541-9640-0d303c95e904)
+[2025-03-11 09:30:07] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales (ID: 30b0b89e-99a8-4d7c-b3f7-ce82b46e5d81)
+[2025-03-11 09:30:07] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Jen's Workspace (ID: 6a807c09-676b-4bf8-9817-613d68fb3338)
+[2025-03-11 09:30:08] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Migration to RTI (ID: e81e1d6b-a097-4939-b3b5-bdef977b318f)
+[2025-03-11 09:30:08] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: fuam_reports (ID: 78eea12a-98e0-4b37-8c4f-ed6f88dd6714)
+[2025-03-11 09:30:09] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric Go Live Assessment (ID: 9961c0be-7b01-4d2d-bce1-addbf051c473)
+[2025-03-11 09:30:09] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Expeditors (ID: 30462b97-78ae-4908-8542-da1a21083e49)
+[2025-03-11 09:30:10] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Upskilling on MS Fabric Lakehosue (ID: 32679da2-69e0-4a4e-bdcb-846f162623b7)
+[2025-03-11 09:30:10] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 09:30:10] Disconnected from Power BI Service Account.
+[2025-03-11 09:30:10] Script execution completed.
+[2025-03-11 09:56:22] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 09:56:22] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 09:56:25] Connected to Power BI Service Account successfully.
+[2025-03-11 09:56:25] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 09:56:26] Retrieved 24 workspaces from the tenant.
+[2025-03-11 09:56:26] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 09:56:26] Processing Workspace: Name=Contoso Online Sales - Dev, ID=b1077436-0161-4e9b-81c5-3ea460c1e73a, State=Active
+[2025-03-11 09:56:26] Error processing workspaces: You must call the Connect-AzureAD cmdlet before calling any other cmdlets.
+[2025-03-11 09:58:11] Connected to Azure AD successfully.
+[2025-03-11 09:58:12] Service Principal with AppId f54a5e43-187b-4ba9-97e3-791b988575c8 exists in Azure AD.
+[2025-03-11 09:58:12] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 09:58:12] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 09:58:18] Connected to Power BI Service Account successfully.
+[2025-03-11 09:58:18] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 09:58:18] Retrieved 24 workspaces from the tenant.
+[2025-03-11 09:58:18] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 09:58:18] Processing Workspace: Name=Contoso Online Sales - Dev, ID=b1077436-0161-4e9b-81c5-3ea460c1e73a, State=Active
+[2025-03-11 09:58:20] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 09:58:20] Processing Workspace: Name=HR Analytics, ID=efba9a11-727e-4573-9c0e-b9ab2edc9deb, State=Active
+[2025-03-11 09:58:21] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 09:58:21] Processing Workspace: Name=Contoso CRM, ID=2277ee5d-df40-4559-9ff4-141cad2fcf77, State=Active
+[2025-03-11 09:58:22] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 09:58:22] Processing Workspace: Name=Real Time Intelligence, ID=e6f655d2-4325-4e9a-814d-42a6a7c4325a, State=Active
+[2025-03-11 09:58:23] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 09:58:23] Processing Workspace: Name=Fabric WAF, ID=89f8fcd1-6ab8-4a34-8cac-729737d76b7f, State=Active
+[2025-03-11 09:58:24] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Adventure Works (ID: 7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6)
+[2025-03-11 09:58:24] Processing Workspace: Name=Adventure Works, ID=7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6, State=Active
+[2025-03-11 09:58:25] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Non-Fabric Workspace (ID: 80e66ee7-9c3a-4f2d-bfa4-d947d9d15322)
+[2025-03-11 09:58:25] Processing Workspace: Name=Non-Fabric Workspace, ID=80e66ee7-9c3a-4f2d-bfa4-d947d9d15322, State=Active
+[2025-03-11 09:58:26] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: AI Analytics (ID: 5180a3ab-2894-4714-89cf-2a67551f64bb)
+[2025-03-11 09:58:26] Processing Workspace: Name=AI Analytics, ID=5180a3ab-2894-4714-89cf-2a67551f64bb, State=Active
+[2025-03-11 09:58:28] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Medallion Demo (ID: 9e99e815-6ada-4790-8ebe-ad8bcfebf585)
+[2025-03-11 09:58:28] Processing Workspace: Name=Medallion Demo, ID=9e99e815-6ada-4790-8ebe-ad8bcfebf585, State=Active
+[2025-03-11 09:58:29] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Microsoft Fabric Capacity Metrics (ID: 7bfca978-0a34-4a8a-aeb9-bd3697331170)
+[2025-03-11 09:58:29] Processing Workspace: Name=Microsoft Fabric Capacity Metrics, ID=7bfca978-0a34-4a8a-aeb9-bd3697331170, State=Active
+[2025-03-11 09:58:31] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Demo Workspace (ID: 19e3b596-5a2f-4511-9eb9-270b9bf88a90)
+[2025-03-11 09:58:31] Processing Workspace: Name=Demo Workspace, ID=19e3b596-5a2f-4511-9eb9-270b9bf88a90, State=Active
+[2025-03-11 09:58:32] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Cost and Schedule (ID: c26f2f17-d1a6-418c-a459-659d6b429239)
+[2025-03-11 09:58:32] Processing Workspace: Name=Cost and Schedule, ID=c26f2f17-d1a6-418c-a459-659d6b429239, State=Active
+[2025-03-11 09:58:33] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: fuam (ID: 49fcd06f-60c4-4ecf-84ae-e8254aa0cc1f)
+[2025-03-11 09:58:33] Processing Workspace: Name=fuam, ID=49fcd06f-60c4-4ecf-84ae-e8254aa0cc1f, State=Active
+[2025-03-11 09:58:35] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Customer Service Management (ID: 86ffd7b3-a099-40c1-a78e-38dfa3c982e2)
+[2025-03-11 09:58:35] Processing Workspace: Name=Customer Service Management, ID=86ffd7b3-a099-40c1-a78e-38dfa3c982e2, State=Active
+[2025-03-11 09:58:35] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Wingtip Sales Analysis (ID: 1c07be08-3c18-426d-9acb-260386073ac0)
+[2025-03-11 09:58:35] Processing Workspace: Name=Wingtip Sales Analysis, ID=1c07be08-3c18-426d-9acb-260386073ac0, State=Active
+[2025-03-11 09:58:36] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Test (ID: a8f948d7-dfe0-4b57-aff3-b93a15622b7e)
+[2025-03-11 09:58:36] Processing Workspace: Name=Contoso Online Sales - Test, ID=a8f948d7-dfe0-4b57-aff3-b93a15622b7e, State=Active
+[2025-03-11 09:58:37] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Prod (ID: 3ef84352-43b0-4541-9640-0d303c95e904)
+[2025-03-11 09:58:37] Processing Workspace: Name=Contoso Online Sales - Prod, ID=3ef84352-43b0-4541-9640-0d303c95e904, State=Active
+[2025-03-11 09:58:38] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales (ID: 30b0b89e-99a8-4d7c-b3f7-ce82b46e5d81)
+[2025-03-11 09:58:38] Processing Workspace: Name=Contoso Online Sales, ID=30b0b89e-99a8-4d7c-b3f7-ce82b46e5d81, State=Active
+[2025-03-11 09:58:40] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Jen's Workspace (ID: 6a807c09-676b-4bf8-9817-613d68fb3338)
+[2025-03-11 09:58:40] Processing Workspace: Name=Jen's Workspace, ID=6a807c09-676b-4bf8-9817-613d68fb3338, State=Active
+[2025-03-11 09:58:41] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Migration to RTI (ID: e81e1d6b-a097-4939-b3b5-bdef977b318f)
+[2025-03-11 09:58:41] Processing Workspace: Name=Migration to RTI, ID=e81e1d6b-a097-4939-b3b5-bdef977b318f, State=Active
+[2025-03-11 09:58:42] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: fuam_reports (ID: 78eea12a-98e0-4b37-8c4f-ed6f88dd6714)
+[2025-03-11 09:58:42] Processing Workspace: Name=fuam_reports, ID=78eea12a-98e0-4b37-8c4f-ed6f88dd6714, State=Active
+[2025-03-11 09:58:43] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric Go Live Assessment (ID: 9961c0be-7b01-4d2d-bce1-addbf051c473)
+[2025-03-11 09:58:43] Processing Workspace: Name=Fabric Go Live Assessment, ID=9961c0be-7b01-4d2d-bce1-addbf051c473, State=Active
+[2025-03-11 09:58:44] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Expeditors (ID: 30462b97-78ae-4908-8542-da1a21083e49)
+[2025-03-11 09:58:44] Processing Workspace: Name=Expeditors, ID=30462b97-78ae-4908-8542-da1a21083e49, State=Active
+[2025-03-11 09:58:45] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Upskilling on MS Fabric Lakehosue (ID: 32679da2-69e0-4a4e-bdcb-846f162623b7)
+[2025-03-11 09:58:45] Processing Workspace: Name=Upskilling on MS Fabric Lakehosue, ID=32679da2-69e0-4a4e-bdcb-846f162623b7, State=Active
+[2025-03-11 09:58:46] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 09:58:46] Disconnected from Power BI Service Account.
+[2025-03-11 09:58:46] Script execution completed.
+[2025-03-11 10:02:57] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 10:02:57] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 10:02:57] Error connecting to Azure AD: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.
+[2025-03-11 10:03:07] MicrosoftPowerBIMgmt module exists.
+[2025-03-11 10:03:07] MicrosoftPowerBIMgmt module imported successfully.
+[2025-03-11 10:03:07] Error connecting to Azure AD: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.
+[2025-03-11 10:03:51] Microsoft.Graph module exists.
+[2025-03-11 10:06:56] Microsoft.Graph module exists.
+[2025-03-11 10:09:13] Microsoft.Graph module exists.
+[2025-03-11 10:12:48] Microsoft.Graph module exists.
+[2025-03-11 10:13:12] Microsoft.Graph module imported successfully.
+[2025-03-11 10:13:12] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:13:12] Error connecting to Microsoft Graph: Cannot bind parameter 'ClientSecretCredential'. Cannot convert the value of type "System.String" to type "System.Management.Automation.PSCredential".
+[2025-03-11 10:13:59] Microsoft.Graph module exists.
+[2025-03-11 10:13:59] Microsoft.Graph module imported successfully.
+[2025-03-11 10:13:59] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:13:59] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:13:59] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:13:59] Error connecting to Power BI Service Account: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.
+[2025-03-11 10:15:39] Microsoft.Graph module exists.
+[2025-03-11 10:15:39] Microsoft.Graph module imported successfully.
+[2025-03-11 10:15:39] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:15:39] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:15:39] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:15:39] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:15:39] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:15:40] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:15:40] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:15:40] Disconnected from Power BI Service Account.
+[2025-03-11 10:15:40] Script execution completed.
+[2025-03-11 10:17:24] Microsoft.Graph module exists.
+[2025-03-11 10:17:24] Microsoft.Graph module imported successfully.
+[2025-03-11 10:17:24] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:17:24] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:17:24] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:17:24] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:17:24] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:17:25] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:17:25] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:17:25] Disconnected from Power BI Service Account.
+[2025-03-11 10:17:25] Script execution completed.
+[2025-03-11 10:18:58] Microsoft.Graph module exists.
+[2025-03-11 10:18:58] Microsoft.Graph module imported successfully.
+[2025-03-11 10:18:58] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:18:59] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:18:59] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:18:59] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:18:59] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:18:59] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:18:59] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:18:59] Disconnected from Power BI Service Account.
+[2025-03-11 10:18:59] Script execution completed.
+[2025-03-11 10:25:06] Microsoft.Graph module exists.
+[2025-03-11 10:25:07] Microsoft.Graph module imported successfully.
+[2025-03-11 10:25:07] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:25:07] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:25:07] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:25:07] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:25:07] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:25:07] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:25:07] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:25:07] Disconnected from Power BI Service Account.
+[2025-03-11 10:25:07] Script execution completed.
+[2025-03-11 10:26:06] Microsoft.Graph module exists.
+[2025-03-11 10:26:06] Microsoft.Graph module imported successfully.
+[2025-03-11 10:26:06] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:26:06] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:26:06] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:26:07] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:26:07] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:26:07] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:26:07] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:26:07] Disconnected from Power BI Service Account.
+[2025-03-11 10:26:07] Script execution completed.
+[2025-03-11 10:27:05] Microsoft.Graph module exists.
+[2025-03-11 10:27:05] Microsoft.Graph module imported successfully.
+[2025-03-11 10:27:05] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:27:05] Error connecting to Microsoft Graph: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.
+[2025-03-11 10:28:35] Microsoft.Graph module exists.
+[2025-03-11 10:28:35] Microsoft.Graph module imported successfully.
+[2025-03-11 10:28:35] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:28:49] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:28:49] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:28:49] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:28:49] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:28:49] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:28:49] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:28:49] Disconnected from Power BI Service Account.
+[2025-03-11 10:28:49] Script execution completed.
+[2025-03-11 10:30:14] Microsoft.Graph module exists.
+[2025-03-11 10:30:14] Microsoft.Graph module imported successfully.
+[2025-03-11 10:30:14] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:30:18] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:30:18] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:30:19] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:30:19] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:30:19] Error processing workspaces: Login first with Login-PowerBIServiceAccount
+[2025-03-11 10:30:46] Microsoft.Graph module exists.
+[2025-03-11 10:30:46] Microsoft.Graph module imported successfully.
+[2025-03-11 10:30:46] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:30:46] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:30:46] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:30:47] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:30:47] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:30:47] Retrieved 0 workspaces from the tenant.
+[2025-03-11 10:30:47] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 10:30:47] Disconnected from Power BI Service Account.
+[2025-03-11 10:30:47] Script execution completed.
+[2025-03-11 10:34:25] Microsoft.Graph module exists.
+[2025-03-11 10:34:25] Microsoft.Graph module imported successfully.
+[2025-03-11 10:34:25] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:34:25] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:34:25] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:34:25] Error connecting to Power BI Service Account: A positional parameter cannot be found that accepts argument 'f54a5e43-187b-4ba9-97e3-791b988575c8'.
+[2025-03-11 10:46:15] Microsoft.Graph module exists.
+[2025-03-11 10:46:15] Microsoft.Graph module imported successfully.
+[2025-03-11 10:46:15] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:46:20] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:46:20] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:46:23] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:46:23] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:46:24] Retrieved 24 workspaces from the tenant.
+[2025-03-11 10:46:24] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 10:46:24] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 10:46:25] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 10:46:26] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 10:46:27] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 10:46:27] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Adventure Works (ID: 7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6)
+[2025-03-11 10:46:28] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Non-Fabric Workspace (ID: 80e66ee7-9c3a-4f2d-bfa4-d947d9d15322)
+[2025-03-11 10:46:28] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: AI Analytics (ID: 5180a3ab-2894-4714-89cf-2a67551f64bb)
+[2025-03-11 10:46:29] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Medallion Demo (ID: 9e99e815-6ada-4790-8ebe-ad8bcfebf585)
+[2025-03-11 10:46:29] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Microsoft Fabric Capacity Metrics (ID: 7bfca978-0a34-4a8a-aeb9-bd3697331170)
+[2025-03-11 10:46:30] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Demo Workspace (ID: 19e3b596-5a2f-4511-9eb9-270b9bf88a90)
+[2025-03-11 10:46:30] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Cost and Schedule (ID: c26f2f17-d1a6-418c-a459-659d6b429239)
+[2025-03-11 10:46:31] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: fuam (ID: 49fcd06f-60c4-4ecf-84ae-e8254aa0cc1f)
+[2025-03-11 10:46:32] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Customer Service Management (ID: 86ffd7b3-a099-40c1-a78e-38dfa3c982e2)
+[2025-03-11 10:46:33] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Wingtip Sales Analysis (ID: 1c07be08-3c18-426d-9acb-260386073ac0)
+[2025-03-11 10:46:33] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Test (ID: a8f948d7-dfe0-4b57-aff3-b93a15622b7e)
+[2025-03-11 10:46:59] Microsoft.Graph module exists.
+[2025-03-11 10:46:59] Microsoft.Graph module imported successfully.
+[2025-03-11 10:46:59] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:47:01] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:47:01] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:47:09] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:47:09] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:47:10] Retrieved 24 workspaces from the tenant.
+[2025-03-11 10:47:10] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 10:47:10] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 10:47:11] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 10:47:12] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 10:47:12] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 10:50:30] Microsoft.Graph module exists.
+[2025-03-11 10:52:31] Microsoft.Graph module exists.
+[2025-03-11 10:54:56] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:55:03] Retrieved 24 workspaces from the tenant.
+[2025-03-11 10:55:03] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 10:55:04] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 10:55:05] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 10:55:05] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 10:55:06] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 10:55:06] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Adventure Works (ID: 7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6)
+[2025-03-11 10:55:07] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Non-Fabric Workspace (ID: 80e66ee7-9c3a-4f2d-bfa4-d947d9d15322)
+[2025-03-11 10:55:08] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: AI Analytics (ID: 5180a3ab-2894-4714-89cf-2a67551f64bb)
+[2025-03-11 10:55:08] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Medallion Demo (ID: 9e99e815-6ada-4790-8ebe-ad8bcfebf585)
+[2025-03-11 10:55:09] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Microsoft Fabric Capacity Metrics (ID: 7bfca978-0a34-4a8a-aeb9-bd3697331170)
+[2025-03-11 10:57:02] Attempting to connect to Microsoft Graph...
+[2025-03-11 10:57:05] Connected to Microsoft Graph successfully using Service Principal.
+[2025-03-11 10:57:05] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:57:10] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:57:10] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:57:11] Retrieved 24 workspaces from the tenant.
+[2025-03-11 10:57:11] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 10:57:12] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 10:57:13] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 10:57:13] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 10:57:14] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 10:57:34] Attempting to connect to Power BI Service Account...
+[2025-03-11 10:57:37] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 10:57:37] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 10:57:38] Retrieved 24 workspaces from the tenant.
+[2025-03-11 10:57:38] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 10:57:38] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 10:57:39] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 10:57:40] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 10:57:41] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 11:00:26] Attempting to connect to Power BI Service Account...
+[2025-03-11 11:00:29] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 11:00:29] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 11:00:30] Retrieved 24 workspaces from the tenant.
+[2025-03-11 11:00:30] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 11:00:31] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 11:00:32] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 11:00:32] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 11:00:33] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 11:00:34] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Adventure Works (ID: 7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6)
+[2025-03-11 11:00:34] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Non-Fabric Workspace (ID: 80e66ee7-9c3a-4f2d-bfa4-d947d9d15322)
+[2025-03-11 11:00:35] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: AI Analytics (ID: 5180a3ab-2894-4714-89cf-2a67551f64bb)
+[2025-03-11 12:29:33] Attempting to connect to Power BI Service Account...
+[2025-03-11 12:29:40] Connected to Power BI Service Account successfully using Service Principal.
+[2025-03-11 12:29:40] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 12:29:40] Retrieved 24 workspaces from the tenant.
+[2025-03-11 12:29:40] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso Online Sales - Dev (ID: b1077436-0161-4e9b-81c5-3ea460c1e73a)
+[2025-03-11 12:29:41] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: HR Analytics (ID: efba9a11-727e-4573-9c0e-b9ab2edc9deb)
+[2025-03-11 12:29:42] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Contoso CRM (ID: 2277ee5d-df40-4559-9ff4-141cad2fcf77)
+[2025-03-11 12:29:43] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Real Time Intelligence (ID: e6f655d2-4325-4e9a-814d-42a6a7c4325a)
+[2025-03-11 12:29:43] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Fabric WAF (ID: 89f8fcd1-6ab8-4a34-8cac-729737d76b7f)
+[2025-03-11 12:29:44] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Adventure Works (ID: 7cb44ba4-c81e-482a-ae2a-7fbd7d9313d6)
+[2025-03-11 12:29:45] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Non-Fabric Workspace (ID: 80e66ee7-9c3a-4f2d-bfa4-d947d9d15322)
+[2025-03-11 12:29:45] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: AI Analytics (ID: 5180a3ab-2894-4714-89cf-2a67551f64bb)
+[2025-03-11 12:29:46] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Medallion Demo (ID: 9e99e815-6ada-4790-8ebe-ad8bcfebf585)
+[2025-03-11 12:29:46] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Microsoft Fabric Capacity Metrics (ID: 7bfca978-0a34-4a8a-aeb9-bd3697331170)
+[2025-03-11 12:29:47] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Demo Workspace (ID: 19e3b596-5a2f-4511-9eb9-270b9bf88a90)
+[2025-03-11 12:29:48] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Cost and Schedule (ID: c26f2f17-d1a6-418c-a459-659d6b429239)
+[2025-03-11 12:29:48] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: fuam (ID: 49fcd06f-60c4-4ecf-84ae-e8254aa0cc1f)
+[2025-03-11 12:29:49] Adding f54a5e43-187b-4ba9-97e3-791b988575c8 as administrator of the workspace: Customer Service Management (ID: 86ffd7b3-a099-40c1-a78e-38dfa3c982e2)
+[2025-03-11 12:31:18] Attempting to connect to Power BI Service Account...
+[2025-03-11 12:31:18] Error connecting to Power BI Service Account: Parameter set cannot be resolved using the specified named parameters. One or more parameters issued cannot be used together or an insufficient number of parameters were provided.
+[2025-03-11 12:32:28] Attempting to connect to Power BI Service Account...
+[2025-03-11 12:32:28] Error connecting to Power BI Service Account: Cannot bind argument to parameter 'Credential' because it is null.
+[2025-03-11 12:34:12] Attempting to connect to Power BI Service Account...
+[2025-03-11 12:34:13] Connected to Power BI Service Account successfully.
+[2025-03-11 12:34:13] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 12:34:13] Retrieved 0 workspaces from the tenant.
+[2025-03-11 12:34:13] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 12:34:13] Disconnected from Power BI Service Account.
+[2025-03-11 12:34:13] Script execution completed.
+[2025-03-11 12:35:16] Attempting to connect to Power BI Service Account...
+[2025-03-11 12:35:16] Connected to Power BI Service Account successfully.
+[2025-03-11 12:35:16] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 12:35:17] Retrieved 0 workspaces from the tenant.
+[2025-03-11 12:35:17] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 12:35:17] Disconnected from Power BI Service Account.
+[2025-03-11 12:35:17] Script execution completed.
+[2025-03-11 12:36:44] Attempting to connect to Power BI Service Account...
+[2025-03-11 12:36:44] Connected to Power BI Service Account successfully.
+[2025-03-11 12:36:44] Input is identified as a Service Principal: f54a5e43-187b-4ba9-97e3-791b988575c8
+[2025-03-11 12:36:44] HERE
+[2025-03-11 12:36:45] Retrieved 0 workspaces from the tenant.
+[2025-03-11 12:36:45] Updated workspaces exported to C:\Users\jeetzler\Documents\GitHub\Useful-Fabric-Scripts\Administrative\out\UpdatedWorkspaces.csv.
+[2025-03-11 12:36:45] Disconnected from Power BI Service Account.
+[2025-03-11 12:36:45] Script execution completed.

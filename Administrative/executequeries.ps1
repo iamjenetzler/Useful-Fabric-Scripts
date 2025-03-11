@@ -1,3 +1,5 @@
+# This script executes a query against a Power BI dataset and returns the results. It requires the following parameters to be defined:
+
 # Define the parameters
 $tenantId = ''
 $clientId = ''

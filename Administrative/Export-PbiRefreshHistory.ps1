@@ -1,4 +1,4 @@
-﻿# Romain Casteres - https://www.pulsweb.fr
+﻿# This script retrieves and exports the refresh history of all datasets in all workspaces in Power BI to a CSV file. It requires the following parameters to be defined:
 
 # The output folder to put all the extracts
 $folder = "out"

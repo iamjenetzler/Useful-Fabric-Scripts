@@ -1,4 +1,4 @@
-# Romain Casteres - https://www.pulsweb.fr
+# This script retrieves and exports Power BI licenses from Azure AD to CSV files. It requires the following parameters to be defined:
 
 $PBIAdminUPN = ""
 $PBIAdminPW = ""
